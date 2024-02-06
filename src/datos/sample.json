@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "pastel": "Pastel de tres leches",
+    "nombre_cliente": "Cliente Nuevo",
+    "precio_total": "500",
+    "precio_adelanto": "70"
+  },
+  {
+    "id": "2",
+    "pastel": "Pastel especial",
+    "nombre_cliente": "Ever Chaparin",
+    "precio_total": "420",
+    "precio_adelanto": "120"
+  }
+]

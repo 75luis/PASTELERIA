@@ -1,0 +1,96 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido de pasteles</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="movie-section">
+      <label for="pastel">Nombre del pastel:</label>
+      <input type="text" id="pastel" placeholder="Nombre del pastel">
+
+      <label for="nombreCliente">Nombre del Cliente:</label>
+      <input type="text" id="nombreCliente" placeholder="Nombre del Cliente">
+
+      <label for="precioTotal">Precio total:</label>
+      <input type="text" id="precioTotal" placeholder="Precio total">
+
+      <label for="precioAdelanto">Precio adelanto:</label>
+      <input type="text" id="precioAdelanto" placeholder="Precio adelanto">
+      <br>
+
+      <button onclick="agregarPedido()">Agregar Pedido</button>
+    </div>
+
+    <button onclick="verTodosLosPedidos()">Ver Todos los Pedidos</button>
+
+    <div id="todosLosPedidos"></div>
+
+    <div class="movie-section">
+      <label for="pedidoId">Ingrese el ID de su pedido:</label>
+      <input type="text" id="pedidoId" placeholder="ID de pedido">
+      <button onclick="getPedidoById()">Consultar Pedido</button>
+      <div id="movieDetails"></div>
+    </div>
+
+
+    <div class="movie-section">
+      <label for="eliminarPedidoId">Ingrese el ID de pedido a eliminar:</label>
+      <input type="text" id="eliminarPedidoId" placeholder="ID de pedido">
+      <button onclick="eliminarPedido()">Eliminar Pedido</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido de pasteles</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="movie-section">
+      <label for="pastel">Nombre del pastel:</label>
+      <input type="text" id="pastel" placeholder="Nombre del pastel">
+
+      <label for="nombreCliente">Nombre del Cliente:</label>
+      <input type="text" id="nombreCliente" placeholder="Nombre del Cliente">
+
+      <label for="precioTotal">Precio total:</label>
+      <input type="text" id="precioTotal" placeholder="Precio total">
+
+      <label for="precioAdelanto">Precio adelanto:</label>
+      <input type="text" id="precioAdelanto" placeholder="Precio adelanto">
+      <br>
+
+      <button onclick="agregarPedido()">Agregar Pedido</button>
+    </div>
+
+    <div class="movie-section">
+      <label for="pedidoId">Ingrese el ID de su pedido:</label>
+      <input type="text" id="pedidoId" placeholder="ID de pedido">
+      <button onclick="getPedidoById()">Consultar Pedido</button>
+      <div id="movieDetails"></div>
+    </div>
+
+    <div class="movie-section">
+      <label for="eliminarPedidoId">Ingrese el ID de pedido a eliminar:</label>
+      <input type="text" id="eliminarPedidoId" placeholder="ID de pedido">
+      <button onclick="eliminarPedido()">Eliminar Pedido</button>
+    </div>
+
+    <a href="pedidos.html" target="_blank">Ver Todos los Pedidos</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
